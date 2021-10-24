@@ -4,8 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>coderig</title>
   </head>
-  <body></body>
+  <body class="font-Poppins bg-coderig-bg">
+    <header>
+      <nav
+        class="
+          container
+          w-11/12
+          mx-auto
+          flex
+          items-center
+          justify-between
+          py-4
+          sm:py-6
+        "
+      >
+        <div
+          class="
+            uppercase
+            text-lg
+            font-FrankRuhlLibre font-bold
+            before:absolute before:h-4 before:w-4 before:bg-blue-500
+          "
+        >
+          <a href="#"> coderig</a>
+        </div>
+        <ul class="items-center justify-center hidden sm:flex gap-8">
+          <li><a class="text-base" href="">Services</a></li>
+          <li><a class="text-base" href="">Pricing</a></li>
+          <li><a class="text-base" href="">Contact</a></li>
+          <a
+            href=""
+            class="
+              uppercase
+              py-1
+              px-4
+              text-base
+              sm:text-sm
+              shadow-sm
+              rounded-sm
+              text-white
+              bg-coderig-primary
+              hover:bg-blue-700
+            "
+            >sign up</a
+          >
+        </ul>
+        <div class="sm:hidden flex cursor-pointer">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
