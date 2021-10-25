@@ -15,54 +15,100 @@
     <title>coderig</title>
   </head>
   <body class="font-Poppins bg-coderig-bg">
-    <header>
-      <nav
+    <div class="container w-11/12 mx-auto">
+      <header>
+        <nav class="flex items-center justify-between py-4 sm:py-6">
+          <div class="uppercase text-lg font-FrankRuhlLibre font-bold">
+            <a href="#"> coderig</a>
+          </div>
+          <ul class="items-center justify-center hidden sm:flex gap-8">
+            <li><a class="text-base" href="">Services</a></li>
+            <li><a class="text-base" href="">Pricing</a></li>
+            <li><a class="text-base" href="">Contact</a></li>
+            <a
+              href=""
+              class="
+                uppercase
+                py-1
+                px-4
+                text-base
+                sm:text-sm
+                shadow-sm
+                rounded-md
+                text-white
+                bg-coderig-primary
+                hover:bg-blue-700
+              "
+              >sign up</a
+            >
+          </ul>
+          <div class="sm:hidden flex cursor-pointer">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+
+      <main
         class="
-          container
-          w-11/12
-          mx-auto
-          flex
+          relative
+          flex flex-col
+          lg:flex-row
           items-center
-          justify-between
-          py-4
-          sm:py-6
+          gap-12
+          mt-14
+          md:mt-18
         "
       >
+        <div class="flex flex-1 flex-col items-center md:items-start">
+          <h1
+            class="
+              font-FrankRuhlLibre
+              text-4xl
+              md:text-4xl
+              lg:text-5xl
+              font-bold
+              text-center
+              lg:text-left
+              mb-4
+            "
+          >
+            Committed to People, <br />
+            Committed to the Future.
+          </h1>
+          <p class="text-gray-600 text-base text-center lg:text-left mb-4">
+            We are experts in business, marketing, growth, and sales. <br />
+            We help businesses take flight.
+          </p>
+
+          <div class="flex justify-center flex-wrap gap-4">
+            <a href="#services" class="btn btn-primary capitalize"
+              >our services</a
+            >
+            <a href="#pricing" class="btn btn-secondary">Pricing and Plans</a>
+          </div>
+        </div>
+
         <div
           class="
-            uppercase
-            text-lg
-            font-FrankRuhlLibre font-bold
-            before:absolute before:h-4 before:w-4 before:bg-blue-500
+            flex
+            justify-center
+            flex-1
+            mb-10
+            md:mb-16
+            lg:mb-0
+            z-10
+            relative
           "
         >
-          <a href="#"> coderig</a>
+          <img
+            src="./images/hero-bg.jpg"
+            alt="hero image"
+            z-50
+            z-50
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full"
+          />
         </div>
-        <ul class="items-center justify-center hidden sm:flex gap-8">
-          <li><a class="text-base" href="">Services</a></li>
-          <li><a class="text-base" href="">Pricing</a></li>
-          <li><a class="text-base" href="">Contact</a></li>
-          <a
-            href=""
-            class="
-              uppercase
-              py-1
-              px-4
-              text-base
-              sm:text-sm
-              shadow-sm
-              rounded-sm
-              text-white
-              bg-coderig-primary
-              hover:bg-blue-700
-            "
-            >sign up</a
-          >
-        </ul>
-        <div class="sm:hidden flex cursor-pointer">
-          <i class="fas fa-bars"></i>
-        </div>
-      </nav>
-    </header>
+      </main>
+    </div>
   </body>
 </html>
