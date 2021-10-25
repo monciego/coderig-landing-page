@@ -9,6 +9,7 @@ module.exports = {
         "coderig-primary": "#2174EA",
         "coderig-secondary": "#485668",
         "coderig-indigo": "#5665F2",
+        "coderig-blue": "#2B3CD4",
         "coderig-bg": "#F4F9FF",
       },
     },
