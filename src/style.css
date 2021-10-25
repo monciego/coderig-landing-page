@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
 
 .btn {
   @apply shadow-md py-2.5 px-8 rounded-md inline-block transition duration-300 cursor-pointer;

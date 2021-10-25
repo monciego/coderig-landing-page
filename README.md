@@ -1,5 +1,7 @@
 # coderig-landing-page
 
+![](public/images/favicon.png)
+
 A landing page for a company called Coderig built in tailwind css
 
 ## **Preview**
