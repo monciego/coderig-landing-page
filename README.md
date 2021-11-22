@@ -7,9 +7,9 @@ A landing page for a company called Coderig built in tailwind css
 ## **Preview**
 
 - ### **Web preview**
-  ![](public/design/web.jpg)
+  ![](/design/web.jpg)
 - ### **Mobile preview**
-  ![](public/design/mobile.jpg)
+  ![](/design/mobile.jpg)
 
 ---
 
