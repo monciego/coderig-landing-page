@@ -45,7 +45,7 @@
                 outline-none
               "
             >
-              <a class="text-base" href="">Pricing</a>
+              <a class="text-base" href="#pricing">Pricing</a>
             </li>
             <li
               class="
@@ -145,7 +145,7 @@
           <img
             src="./images/hero-bg.jpg"
             alt="hero image"
-            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full z-50"
+            class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 lg:w-full lg:h-full z-40"
           />
           <div
             class="
@@ -181,7 +181,16 @@
           Delivering business solutions for the web and mobile world.
         </h2>
         <!-- services card -->
-        <div class="my-12 md:grid md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-6">
+        <div
+          class="
+            my-12
+            md:grid md:grid-cols-2
+            lg:grid-cols-3
+            gap-2
+            mb-3
+            md:gap-6
+          "
+        >
           <div
             class="
               h-full
@@ -425,6 +434,408 @@
                 suited for them based on their needs.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing and plans -->
+      <section id="pricing">
+        <h2 class="font-FrankRuhlLibre text-center text-3xl font-black">
+          Plans and Pricing
+        </h2>
+        <p class="font-Poppins font-medium text-center my-4">
+          Choose the plan that’s right for your company. All plans inclue a 30
+          days trial.
+        </p>
+        <div class="flex items-center justify-center flex-col sm:flex-row">
+          <div class="m-2 md:mx-4">
+            <input
+              class="
+                cursor-pointer
+                focus:ring-indigo-500
+                h-4
+                w-4
+                text-indigo-600
+                border-gray-300
+              "
+              type="radio"
+              id="annually"
+              name="pricing-radio"
+              checked
+            />
+            <label class="cursor-pointer" for="annually"
+              >Build annually (save 20%)</label
+            >
+          </div>
+          <div lass="m-2  md:mx-4">
+            <input
+              class="
+                cursor-pointer
+                focus:ring-indigo-500
+                h-4
+                w-4
+                text-indigo-600
+                border-gray-300
+              "
+              type="radio"
+              id="monthly"
+              name="pricing-radio"
+            />
+            <label class="cursor-pointer" for="monthly"
+              >Build annually (save 20%)</label
+            >
+          </div>
+        </div>
+        <!-- pricing cards -->
+        <div
+          class="
+            my-10
+            flex
+            items-center
+            justify-center
+            flex-col
+            lg:flex-row
+            gap-4
+            md:gap-6
+          "
+        >
+          <div class="block w-full p-6 bg-white shadow rounded-md relative">
+            <h4 class="font-semibold text-lg">Lite</h4>
+            <h2
+              class="
+                font-bold
+                text-5xl
+                mt-4
+                mb-6
+                border-b-2
+                pb-10
+                border-gray-200
+              "
+            >
+              $16 <span class="text-gray-400 text-2xl">/mo</span>
+            </h2>
+            <h3 class="text-lg font-bold uppercase mb-4">what’s included</h3>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">All limited links</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">Own Analytic platform</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">5TB Cloud Storage</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#A3A7B0"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium text-gray-500">Chat support</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#A3A7B0"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium text-gray-500">Social Media Reach</p>
+            </div>
+
+            <button
+              class="
+                capitalize
+                font-semibold
+                text-xl
+                py-2
+                px-14
+                border-2 border-gray-300
+                rounded-xl
+                hover:border-gray-500
+                m-6
+              "
+            >
+              get started
+            </button>
+          </div>
+
+          <div
+            class="
+              block
+              w-full
+              p-6
+              bg-white
+              border-indigo-700 border-2
+              shadow
+              rounded-md
+              relative
+            "
+          >
+            <h4 class="font-semibold text-lg">Premium</h4>
+            <h2
+              class="
+                font-bold
+                text-5xl
+                mt-4
+                mb-6
+                border-b-2
+                pb-10
+                border-gray-200
+              "
+            >
+              $32 <span class="text-gray-400 text-2xl">/mo</span>
+            </h2>
+            <h3 class="text-lg font-bold uppercase mb-4">what’s included</h3>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">All limited links</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">Own Analytic platform</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">Chat Support</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">Unlimited Cloud Storage</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">Social Media Reach</p>
+            </div>
+
+            <button
+              class="
+                capitalize
+                font-semibold
+                text-xl
+                py-2
+                px-14
+                bg-blue-700
+                rounded-lg
+                text-white
+                hover:bg-blue-800
+                m-6
+              "
+            >
+              get started
+            </button>
+          </div>
+
+          <div class="block w-full p-6 bg-white shadow rounded-md relative">
+            <h4 class="font-semibold text-lg">Basic</h4>
+            <h2
+              class="
+                font-bold
+                text-5xl
+                mt-4
+                mb-6
+                border-b-2
+                pb-10
+                border-gray-200
+              "
+            >
+              $24 <span class="text-gray-400 text-2xl">/mo</span>
+            </h2>
+            <h3 class="text-lg font-bold uppercase mb-4">what’s included</h3>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">All limited links</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">Own Analytic platform</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">Chat Support</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#2ED972"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium">10 TB Cloud Storage</p>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="#A3A7B0"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <p class="font-medium text-gray-500">Social Media Reach</p>
+            </div>
+
+            <button
+              class="
+                capitalize
+                font-semibold
+                text-xl
+                py-2
+                px-14
+                border-2 border-gray-300
+                rounded-xl
+                hover:border-gray-500
+                m-6
+              "
+            >
+              get started
+            </button>
           </div>
         </div>
       </section>
