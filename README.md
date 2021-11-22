@@ -13,7 +13,7 @@ A landing page for a company called Coderig built in tailwind css
 
 ---
 
-🚧 under construction
+~~🚧 under construction~~
 
 design: https://www.figma.com/file/hs6uxfIUJybvkWTWtX0wIh/codegrid?node-id=0%3A1
 
