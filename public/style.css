@@ -33199,6 +33199,10 @@ html {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
+.valid:valid {
+  --tw-translate-y: 0px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

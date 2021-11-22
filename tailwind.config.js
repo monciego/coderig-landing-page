@@ -4,6 +4,9 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fill: {
+      current: "currentColor",
+    },
     extend: {
       colors: {
         "coderig-primary": "#2174EA",
@@ -25,6 +28,7 @@ module.exports = {
   variants: {
     extend: {
       borderColor: ["focus"],
+      translate: ["focus"],
     },
   },
   plugins: [],

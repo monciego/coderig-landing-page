@@ -19,3 +19,7 @@ html {
 .btn-secondary {
   @apply bg-coderig-secondary text-white hover:bg-gray-700;
 }
+
+.valid:valid {
+  @apply translate-y-0;
+}
